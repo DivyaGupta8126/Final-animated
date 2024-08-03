@@ -17,21 +17,21 @@ export default function Contact() {
           data-aos="zoom-in-up"
           data-aos-duration="2000"
         >
-          <a href="#" className="items">
+          <a href="https://www.instagram.com/divyagupta8126/" className="items">
             <FaInstagram className="icons" />
           </a>
           <a
-            href="https://www.linkedin.com/in/divyagupta8126/" target="_blank"
+            href="https://www.linkedin.com/in/divyagupta8126/" target="_blank" rel="noreferrer"
             className="items"
           >
             <CiLinkedin className="icons" />
           </a>
-          <a href="https://github.com/DivyaGupta8126" target="_blank" className="items">
+          <a href="https://github.com/DivyaGupta8126" target="_blank" rel="noreferrer" className="items">
             <FaGithub className="icons" />
           </a>
           <a
             href="mailto:divyagupta8126@gmail.com"
-            target="_blank"
+            target="_blank" rel="noreferrer"
             className="items"
           >
             <CgMail className="icons" />

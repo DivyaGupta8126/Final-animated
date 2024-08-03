@@ -19,8 +19,8 @@ export default function Projects() {
 
 </p>
     <div className="project-buttons">
-    <a href="https://github.com/DivyaGupta8126/Eater-Snake" target='_blank' class="btn btn-dark me-2">Github</a>
-    <a href="#" className="btn btn-outline-dark">Live Demo</a>
+    <a href="https://github.com/DivyaGupta8126/Eater-Snake" target='_blank' rel="noreferrer" class="btn btn-dark me-2">Github</a>
+    <button  className="btn btn-outline-dark">Live Demo</button>
   </div>
   </div>
 </div>
@@ -34,7 +34,7 @@ data-aos="flip-right"
     <p class="card-text">It is a portfolio website that contains my personal information. It is made using React Js.</p>
     <div className="project-buttons">
     <a href="https://github.com/DivyaGupta8126/divyagupta8126.github.io" target='_blank' class="btn btn-dark me-2">Github</a>
-    <a href="https://divyagupta8126.github.io/" target='_blank' className="btn btn-outline-dark">Live Demo</a>
+    <a href="https://divyagupta8126.github.io/" target='_blank' rel="noreferrer" className="btn btn-outline-dark">Live Demo</a>
   </div>
   </div>
 </div>
@@ -47,8 +47,8 @@ data-aos="flip-right"
     <h5 class="card-title fs-3">Movie-Hacking</h5>
     <p class="card-text">Movie-Hacking is a React website that provides movie information based on the entered name.</p>
     <div className="project-buttons">
-    <a href="https://github.com/DivyaGupta8126/Movie-Hacking" target='_blank' class="btn btn-dark me-2">Github</a>
-    <a href="https://divyagupta8126.github.io/Movie-Hacking/" target='_blank' className="btn btn-outline-dark">Live Demo</a>
+    <a href="https://github.com/DivyaGupta8126/Movie-Hacking" target='_blank' rel="noreferrer" class="btn btn-dark me-2">Github</a>
+    <a href="https://divyagupta8126.github.io/Movie-Hacking/" target='_blank' rel="noreferrer" className="btn btn-outline-dark">Live Demo</a>
   </div>
   </div>
 </div>

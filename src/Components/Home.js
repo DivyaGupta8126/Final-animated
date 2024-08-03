@@ -38,7 +38,7 @@ export default function Home() {
       data-aos-duration="1000"
       >
         <div className="img">
-        <img src="./assets/cropped_image.png" alt="Image" />
+        <img src="./assets/cropped_image.png" alt="profile" />
         </div>
       </div>
     </div>
