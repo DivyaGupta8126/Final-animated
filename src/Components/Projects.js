@@ -33,7 +33,7 @@ data-aos="flip-right"
     <h5 class="card-title fs-3">Portfolio Website</h5>
     <p class="card-text">It is a portfolio website that contains my personal information. It is made using React Js.</p>
     <div className="project-buttons">
-    <a href="https://github.com/DivyaGupta8126/divyagupta8126.github.io" target='_blank' class="btn btn-dark me-2">Github</a>
+    <a href="https://github.com/DivyaGupta8126/divyagupta8126.github.io" target='_blank' rel="noreferrer"  class="btn btn-dark me-2">Github</a>
     <a href="https://divyagupta8126.github.io/" target='_blank' rel="noreferrer" className="btn btn-outline-dark">Live Demo</a>
   </div>
   </div>
