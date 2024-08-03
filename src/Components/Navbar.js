@@ -5,9 +5,9 @@ export default function Navbar() {
     <>
       <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand">
+          <span class="navbar-brand">
             Divya Gupta
-          </a>
+          </span>
           <button
             class="navbar-toggler"
             type="button"
