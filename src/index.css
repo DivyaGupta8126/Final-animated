@@ -1,0 +1,344 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Navbar Section started */
+.nav_bar {
+  position: absolute !important;
+  right: 40px;
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2em;
+}
+
+.left {
+  font-family: 'Dancing Script';
+}
+
+.nav_bar a{
+text-decoration: none;
+color: black;
+font-family: 'Times New Roman', Times, serif;
+font-size: 1.2em;
+}
+
+/* Navbar Section ended */
+
+/* Home Section Started */
+.home {
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.home .left {
+  border: 1px solid black;
+  width: 80%;
+  padding: 2em;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px 10px rgb(59, 126, 133);
+}
+
+.home .left h1, .home .left a {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.home .left a {
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(59, 126, 133);
+  border-color: rgb(59, 126, 133);
+}
+.home .left a :hover {
+color: black !important;
+}
+
+.home .left button {
+  background-color: rgb(59, 126, 133) !important;
+}
+
+.home .right .img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .right .img img{
+  width: 60%;
+  height: 60%;
+  margin-left: 8em;
+  border: 5px solid rgb(102, 184, 207);
+  border-radius: 100%;
+  animation-name: mainEffect;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mainEffect {
+  0%{
+border-color: rgb(50, 79, 50);
+transform: translate(0,0px);
+box-shadow: 10px 10px 100px (50, 79, 50);
+  }
+  25%
+  {
+    border-color: rgb(107, 62, 94);
+    box-shadow: 10px 10px 100px  rgb(107, 62, 94);
+  }
+  50%
+  {
+    border-color: rgb(12, 122, 169);
+    transform: translate(0,10px);
+    box-shadow: 10px 10px 100px rgb(12, 122, 169);
+  }
+  75%{
+    border-color: rgb(71, 22, 44);
+    box-shadow: 10px 10px 100px  rgb(71, 22, 44);
+  }
+  100%{
+    border-color: rgb(166, 115, 72);
+    transform: translate(0,-0px);
+    box-shadow: 10px 10px 100px rgb(166, 115, 72);
+  }
+}
+
+
+/* Home Section ended */
+
+
+/* About Section Started */
+.about {
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 2em;
+}
+
+#ab {
+  font-family: 'Dancing Script';
+}
+
+.about .first , .about .second, .about .third{
+  text-align: justify;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  background-color: rgb(148, 187, 196);
+  box-shadow: 10px 10px 20px rgb(59, 126, 133);
+  border-radius: 20px;
+  padding: 2em 4em;
+}
+
+.about .first {
+  padding: 2em 3.7em;
+}
+.about .first ul , .about .second ul, .about .third ul
+{
+  font-size: 1.2em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.first h1, .second h1, .third h1 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* About Section ended */
+
+/* Skills Section started  */
+
+.skills h1 {
+  font-family: 'Dancing Script';
+  margin-top: 2.5em;
+  margin-bottom: 1.2em;
+}
+
+.mainBox {
+  flex-wrap: wrap;
+  width: 800px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 20px;
+}
+
+.mainBox img {
+  width: 6em;
+}
+
+.box {
+  border: 2px solid rgb(160, 223, 231);
+  padding: 20px 80px;
+  background-color: black;
+  color: white;
+  width: 320px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 10px rgb(59, 126, 133);
+
+
+}
+
+.projects h1, .card-title {
+  font-family: 'Dancing script';
+}
+
+.sixth {
+  padding : 30px 80px;
+}
+
+
+.second {
+  padding: 15px 80px;
+}
+
+/* skills Section ended */
+
+/* Projects section started */
+.projects .card img {
+  width: 8em;
+}
+
+#port img {
+  width: 90px;
+}
+
+#mov img {
+  width: 115px;
+}
+
+
+.projects .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: rgb(148, 187, 196);
+  box-shadow: 10px 10px 20px rgb(59, 126, 133);
+}
+
+
+.projectsBox {
+  justify-content: space-evenly;
+}
+
+
+/* Projects section ended */
+
+/* Contact section started  */
+
+.contact h1 {
+  font-family: 'dancing Script';
+}
+
+.contact-icon {
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+.icons {
+  font-size: 3em;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.items {
+  padding:40px;
+  background-color: black;
+  border-radius: 100%;
+  border: 4px solid rgb(59, 126, 133);
+  box-shadow: 10px 10px 20px rgb(59, 126, 133);
+  color: black;
+}
+
+.items:hover {
+  background-color: rgb(100, 165, 168);
+  box-shadow: 10px 10px 20px black;
+}
+
+/* Contact section ended */
+
+@media only screen and (max-width: 425px){
+ .mainBox {
+  width: 350px;
+ }
+
+ .box {
+  width: 250px;
+ }
+
+ .projectsBox {
+  flex-direction: column;
+  gap: 2em;
+  border-radius: 60px !important;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .home {
+  flex-direction: column-reverse;
+ }
+
+ .icons {
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .nav ul li:hover{
+  background-color: rgb(77, 144, 144) !important;
+ }
+
+ .items {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+.contact-icon {
+  gap: 1em;
+}
+
+.home {
+  height: 70vh;
+}
+
+.home .right .img img  {
+  margin-left: 0;
+  margin-top: 7em;
+}
+
+.navbar-brand a {
+  font-family: 'Dancing-Script' !important;
+}
+
+.ph{
+  font-size: 3em;
+}
+
+.about .first , .about .second, .about .third {
+  padding: 20px;
+  width: 280px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#ab{
+  margin-top: 3.5em;
+}
+
+}
